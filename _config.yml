@@ -14,6 +14,7 @@ title: Afrin Tisha
 tagline: A text-focused Jekyll theme
 description: >-
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
+
 url: "https://afrin.lewsion.com"
 
 github:
@@ -74,8 +75,8 @@ pageviews:
 # ----------------------------------------
 
 theme_mode: dark
-cdn: "https://chirpy-img.netlify.app"
-avatar: "/commons/avatar.jpg"
+cdn: ""
+avatar: "/assets/img/e44fbf89-c313-4488-ab98-1fb68be74ff5.jpeg"
 social_preview_image: # Will be activated in the future
 toc: true
 
