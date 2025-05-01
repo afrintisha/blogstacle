@@ -118,7 +118,7 @@ pwa:
 # ----------------------------------------
 
 paginate: 10
-baseurl: "https://afrin.lewsion.com"
+# baseurl: "https://afrin.lewsion.com"
 
 # ----------------------------------------
 # Advanced Settings (Not Recommended to Change)
