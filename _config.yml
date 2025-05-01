@@ -1,0 +1,192 @@
+# ----------------------------------------
+# General Settings
+# ----------------------------------------
+
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Dhaka
+
+# ----------------------------------------
+# SEO Settings
+# ----------------------------------------
+
+title: Afrin Tisha
+tagline: A text-focused Jekyll theme
+description: >-
+  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+url: "https://afrin.lewsion.com"
+
+github:
+  username: afrintisha
+twitter:
+  username: afrin_tisha3
+
+social:
+  name: Afrin Tisha
+  email: afrin@lewsion.com
+  links:
+    - https://twitter.com/afrin_tisha3
+    - https://github.com/afrintisha
+    # - https://www.facebook.com/username # Will be activated in the future
+    # - https://www.linkedin.com/in/username # Will be activated in the future
+
+# ----------------------------------------
+# Site Verification Settings
+# ----------------------------------------
+
+webmaster_verifications:
+  google: # Will be activated in the future
+  bing: # Will be activated in the future
+  alexa: # Will be activated in the future
+  yandex: # Will be activated in the future
+  baidu: # Will be activated in the future
+  facebook: # Will be activated in the future
+
+# ----------------------------------------
+# Web Analytics Settings
+# ----------------------------------------
+
+analytics:
+  google:
+    id: # Will be activated in the future
+  goatcounter:
+    id: # Will be activated in the future
+  umami:
+    id: # Will be activated in the future
+    domain: # Will be activated in the future
+  matomo:
+    id: # Will be activated in the future
+    domain: # Will be activated in the future
+  cloudflare:
+    id: # Will be activated in the future
+  fathom:
+    id: # Will be activated in the future
+
+# ----------------------------------------
+# Page Views Settings
+# ----------------------------------------
+
+pageviews:
+  provider: # Will be activated in the future (Only Supports Goatcounter)
+
+# ----------------------------------------
+# Theme Settings
+# ----------------------------------------
+
+theme_mode: dark
+cdn: "https://chirpy-img.netlify.app"
+avatar: "/commons/avatar.jpg"
+social_preview_image: # Will be activated in the future
+toc: true
+
+# ----------------------------------------
+# Comments Settings
+# ----------------------------------------
+
+comments:
+  provider: # Will be activated in the future
+  disqus:
+    shortname: # Will be activated in the future
+  utterances:
+    repo: # Will be activated in the future
+    issue_term: # Will be activated in the future
+  giscus:
+    repo: # Will be activated in the future
+    repo_id: # Will be activated in the future
+    category: # Will be activated in the future
+    category_id: # Will be activated in the future
+    mapping: # Will be activated in the future
+    strict: # Will be activated in the future
+    input_position: # Will be activated in the future
+    lang: # Will be activated in the future
+    reactions_enabled: # Will be activated in the future
+
+# ----------------------------------------
+# PWA Settings
+# ----------------------------------------
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+      # - "/example"
+
+# ----------------------------------------
+# Pagination Settings
+# ----------------------------------------
+
+paginate: 10
+baseurl: "https://afrin.lewsion.com"
+
+# ----------------------------------------
+# Advanced Settings (Not Recommended to Change)
+# ----------------------------------------
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - rollup.config.js
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/x
