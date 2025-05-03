@@ -1,7 +1,7 @@
 ---
 title: "What is a Homelab? (My Edition)"
 date: 2025-05-01 20:30:00 +0600
-categories: [Homelab,Proxmox]
+categories: [Homelab, Proxmox]
 summary: "A beginner-friendly introduction to what a homelab is, how I built mine using Proxmox, LXC, and Docker, and why you might want to build one too."
 image:
   path: /assets/img/covers/2025-05-01-what-is-a-homelab.jpg

@@ -124,6 +124,9 @@ paginate: 10
 # Advanced Settings (Not Recommended to Change)
 # ----------------------------------------
 
+plugins:
+  - jekyll-archives
+
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
