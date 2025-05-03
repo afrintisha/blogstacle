@@ -21,6 +21,17 @@
       },
       "problemMatcher": [],
       "detail": "Build the Jekyll site for production."
+    },
+    {
+      "label": "Serve Jekyll",
+      "type": "shell",
+      "command": "bundle exec jekyll serve",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Serves the Jekyll site locally with live reload."
     }
   ]
 }
