@@ -81,6 +81,14 @@ social_preview_image: # Will be activated in the future
 toc: true
 
 # ----------------------------------------
+# Assets Settings
+# ----------------------------------------
+
+assets:
+  self_host:
+    enabled: true
+
+# ----------------------------------------
 # Comments Settings
 # ----------------------------------------
 
