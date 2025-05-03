@@ -4,7 +4,7 @@ date: 2025-05-01 20:30:00 +0600
 categories: [Homelab,Proxmox]
 summary: "A beginner-friendly introduction to what a homelab is, how I built mine using Proxmox, LXC, and Docker, and why you might want to build one too."
 image:
-  path: /assets/images/covers/2025-05-01-homelab.jpg
+  path: /assets/img/covers/2025-05-01-what-is-a-homelab.jpg
   alt: "Screenshot of a self-hosted homelab dashboard"
   lqip: data:image/webp;base64,UklGRhYAAABXRUJQVlA4TAYAAAAvAAAAHwAAHwAAQUxQSAwAAAABAAAAAA==
 readingTime: 5
