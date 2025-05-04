@@ -1,43 +1,82 @@
-# Chirpy Starter
+# Blogstacle
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[![Jekyll](https://img.shields.io/badge/Jekyll-Theme%20Chirpy-blue)](https://github.com/cotes2020/jekyll-theme-chirpy)
+[![License](https://img.shields.io/github/license/afrintisha/blogstacle)](LICENSE)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+**Blogstacle** is a personal blog built using the [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy). It serves as a platform to document projects, share knowledge, and explore the world of self-hosting, homelabs, and technology.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## Features
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+- **Homelab Enthusiast's Journal**: Posts about building and managing a homelab, including virtualization, containerization, and networking.
+- **Knowledge Sharing**: Tutorials, guides, and insights into various technologies.
+- **Personal Touch**: A mix of professional and personal content, including anecdotes and lessons learned.
+- **Chirpy Theme**: Powered by the feature-rich Chirpy Jekyll theme, offering a clean and modern design.
 
-```shell
+## Repository Structure
+
+```plaintext
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _config.yml          # Site configuration
+├── _data/               # Data files (e.g., authors, contact info)
+├── _plugins/            # Custom Jekyll plugins
+├── _posts/              # Blog posts
+├── _tabs/               # Navigation tabs (e.g., About, Tags, Archives)
+├── assets/              # Static assets (images, CSS, JS)
+├── tools/               # Utility scripts (e.g., testing)
+├── Gemfile              # Ruby dependencies
+├── index.html           # Homepage
+└── README.md            # This file
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Getting Started
+
+### Prerequisites
+
+- [Ruby](https://www.ruby-lang.org/en/) (>= 2.5)
+- [Bundler](https://bundler.io/)
+- [Jekyll](https://jekyllrb.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/afrintisha/blogstacle.git
+   cd blogstacle
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   bundle install
+   ```
+
+3. Serve the site locally:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Open your browser and navigate to `http://localhost:4000`.
 
 ## Usage
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+- **Writing Posts**: Add new Markdown files to the `_posts/` directory. Follow the naming convention `YYYY-MM-DD-title.md`.
+- **Customizing Tabs**: Modify files in the `_tabs/` directory to update navigation tabs like "About" and "Tags."
+- **Testing**: Use the `tools/test.sh` script to build and test the site content.
+
+## Deployment
+
+This site can be deployed to GitHub Pages or any static hosting platform. For GitHub Pages, ensure the `gh-pages` branch is configured in your repository settings.
 
 ## Contributing
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the blog.
 
 ## License
 
-This work is published under [MIT][mit] License.
+This repository is licensed under the [MIT License](LICENSE).
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+---
+
+Happy blogging! 🚀
