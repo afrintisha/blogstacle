@@ -3,13 +3,13 @@ title: "Building My Own Private DNS with AdGuard Home"
 date: 2025-05-02 00:00:00 +0600
 categories: [Homelab, Networking]
 tags: [adguard, dns, proxmox, ubuntu, lxc, self-hosting]
-author: Afrin
 summary: "Learn how to set up your own private DNS server using AdGuard Home, hosted on an LXC container in Proxmox. A step-by-step guide for self-hosting enthusiasts."
 image:
   path: /assets/img/covers/2025-05-02-adguard-home-dns.jpg
   alt: "Screenshot of AdGuard Home dashboard"
   lqip: data:image/webp;base64,UklGRhYAAABXRUJQVlA4TAYAAAAvAAAAHwAAHwAAQUxQSAwAAAABAAAAAA==
 readingTime: 7
+author: afrin
 ---
 
 > *“Why rely on someone else's DNS when you can break your own?”* — Me, before setting up AdGuard Home.
