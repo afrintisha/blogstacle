@@ -3,6 +3,9 @@ title: "Building Multi-Cloud Infrastructure with Terraform"
 date: 2025-12-29 12:00:00 +0600
 categories: [Infrastructure as Code, Terraform]
 summary: "Where it all began: My journey into Infrastructure as Code (IaC) starts with Terraform, managing resources across AWS, Linode, and Oracle Cloud."
+image:
+  path: /assets/img/covers/terraform.jpg
+  alt: "Terraform Infrastructure"
 readingTime: 7
 tags: [terraform, aws, linode, oracle, cloud, devops, iac]
 author: afrin

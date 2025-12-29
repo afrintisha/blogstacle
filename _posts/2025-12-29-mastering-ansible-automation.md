@@ -3,6 +3,9 @@ title: "Mastering Infrastructure Automation with Ansible & Semaphore"
 date: 2025-12-29 12:05:00 +0600
 categories: [Automation, Ansible, Semaphore]
 summary: "Taking the next step: How I used Ansible to configure the servers I built with Terraform, and my experience managing it all with the Ansible Semaphore GUI."
+image:
+  path: /assets/img/covers/ansible-semaphore.jpg
+  alt: "Ansible Semaphore Automation"
 readingTime: 8
 tags: [ansible, devops, semaphore, gui, hardening, docker, automation]
 author: afrin
